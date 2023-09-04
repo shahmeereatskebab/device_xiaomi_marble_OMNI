@@ -55,4 +55,20 @@ on property:twrp.modules.loaded=true
     wait /sys/class/power_supply/battery
     start health-hal-2-1
     start vibratorfeature-hal-service
+    start goodix_core
     umount /firmware
+
+on property:ro.boot.fastboot=1
+    start goodix_core_fbd
+
+service goodix_core /vendor/bin/goodix_core.sh
+    user root
+    group root
+    disabled
+    seclabel u:r:recovery:s0
+
+service goodix_core_fbd /vendor/bin/goodix_core.sh
+    user root
+    group root
+    disabled
+    seclabel u:r:fastbootd:s0
