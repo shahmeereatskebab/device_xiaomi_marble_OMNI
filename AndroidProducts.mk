@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_marble.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_marble.mk
 
-COMMON_LUNCH_CHOICES := twrp_marble-eng
+COMMON_LUNCH_CHOICES := omni_marble-eng
