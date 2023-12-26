@@ -14,7 +14,7 @@ PRODUCT_RELEASE_NAME := marble
 
 ## Device identifier
 PRODUCT_DEVICE := marble
-PRODUCT_NAME := twrp_marble
+PRODUCT_NAME := omni_marble
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := 23049RAD8C
 PRODUCT_MANUFACTURER := Xiaomi
