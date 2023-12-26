@@ -1,4 +1,4 @@
-# TWRP device tree for Redmi Note 12 Turbo/Poco F5
+# OMNI/PBRP device tree for Redmi Note 12 Turbo/Poco F5
 
 Redmi Note 12 Turbo/Poco F5 (codenamed _"marble"_) is a high-end, mid-range smartphone from Xiaomi.
 
